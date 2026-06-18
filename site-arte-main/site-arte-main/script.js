@@ -5,6 +5,7 @@ let posicao = 0;
 let velocidade = 2;
 let pausado = false;
 
+// Pausar carrossel ao passar o mouse
 slides.addEventListener("mouseenter", () => {
     pausado = true;
 });
@@ -15,7 +16,7 @@ slides.addEventListener("mouseleave", () => {
 
 function animar() {
     if (!pausado) {
-       posicao -= velocidade * 1.5;
+        posicao -= velocidade * 1.5;
 
         const larguraTotal = slides.scrollWidth / 2;
 
@@ -27,7 +28,7 @@ function animar() {
     }
 
     requestAnimationFrame(animar);
-
 }
 
 animar();
+
