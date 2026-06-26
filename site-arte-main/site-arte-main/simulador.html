@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Simular Orçamento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Simulador de Orçamento</h1>
+</header>
+
+<main class="simulador">
+
+    <label>Estilo</label>
+    <select id="estilo">
+        <option value="150">Colorido</option>
+        <option value="100">Apenas Fundo Colorido</option>
+        <option value="50">Preto e Branco</option>
+    </select>
+
+    <label>Medidas</label>
+    <select id="medidas">
+        <option value="300">20x30cm até 40x40cm</option>
+        <option value="450">40x90cm até 60x80cm</option>
+        <option value="600">60x80cm até 70x120cm</option>
+        <option value="1800">70x150cm até 90x130cm</option>
+    </select>
+
+    <button onclick="calcular()">Calcular</button>
+
+    <h2 id="resultado">Valor estimado: R$ 0,00</h2>
+
+</main>
+
+<script src="simulador.js"></script>
+
+</body>
+</html>
