@@ -2,14 +2,14 @@ const slides = document.querySelector(".slides");
 const imagens = document.querySelectorAll(".slides img");
 
 const dadosObras = [
-    { titulo: "Obra 1", descricao: "descrição." },
-    { titulo: "Obra 2", descricao: "descrição." },
-    { titulo: "Obra 3", descricao: "descrição." },
-    { titulo: "Obra 4", descricao: "descrição." },
-    { titulo: "Obra 5", descricao: "descrição." },
-    { titulo: "Obra 6", descricao: "descrição." },
-    { titulo: "Obra 7", descricao: "descrição." },
-    { titulo: "Obra 8", descricao: "descrição." },
+    { titulo: "O Anjo caído.", descricao: "40x50cm." },
+    { titulo: "Hulk Paraíba.", descricao: "80x60cm." },
+    { titulo: "Retrato de Casamento.", descricao: "90x60cm." },
+    { titulo: "Retrado Familiar.", descricao: "40x50cm." },
+    { titulo: "Lyanco.", descricao: "24x30cm" },
+    { titulo: "Pelé.", descricao: "40x50cm." },
+    { titulo: "O queridinho de Deus, Froid.", descricao: "30x30cm." },
+    { titulo: "Retrato de três indígenas em estúdio, Pastore Vincenzo.", descricao: "50x50cm." },
 ];
 
 // modal html
